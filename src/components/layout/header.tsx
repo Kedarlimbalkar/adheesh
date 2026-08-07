@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { href: "/products", label: "Products" },
   { href: "/harvest-chart", label: "Harvest Chart" },
   { href: "/contact", label: "Contact Us" },
+  { label: "Gallery", href: "/gallery" }
 ];
 
 export function Header() {

@@ -52,7 +52,12 @@ export function Footer() {
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary shrink-0" /> sales@adheeshoverseas.in</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary shrink-0" /> info@adheeshoverseas.in</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary shrink-0" /> contact@adheeshoverseas.in</li>
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary shrink-0" /> +91 99999 99999</li>
+            <li className="flex items-center gap-2">
+              <Phone className="h-4 w-4 text-primary shrink-0" />
+              <a href="tel:+918888540721" className="hover:underline">+91 88885 40721</a>
+              <span className="mx-1">/</span>
+              <a href="tel:+919822368877" className="hover:underline">+91 98223 68877</a>
+            </li>
             <li className="flex items-center gap-2"><Globe className="h-4 w-4 text-primary shrink-0" /> www.adheeshoverseas.in</li>
             <li className="text-white/40 text-xs pt-1">GSTIN: 27BXOPL7101B1ZO</li>
           </ul>
