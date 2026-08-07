@@ -4,7 +4,7 @@ import "./globals.css";
 import { AnnouncementBar } from "@/components/layout/announcement-bar";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import { WhatsappButton } from "@/components/layout/whatsapp-button";
+import WhatsAppButton from "@/components/layout/whatsapp-button";
 import { InquiryModalProvider } from "@/context/inquiry-modal-context";
 import { GlobalInquirySheet } from "@/components/shared/global-inquiry-sheet";
 
@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           <main>{children}</main>
           <Footer />
-          <WhatsappButton />
+          <WhatsAppButton />
           <GlobalInquirySheet />
         </InquiryModalProvider>
       </body>
