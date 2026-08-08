@@ -24,14 +24,64 @@ export const CATEGORIES: { id: Product["category"]; label: string }[] = [
 
 export const PRODUCTS_DATA: Product[] = [
   {
-    id: "salem-turmeric-finger",
-    name: "Salem Turmeric Finger (Whole)",
+    id: "turmeric-mukra-ghatta",
+    name: "Turmeric Mukra Ghatta",
     botanicalName: "Curcuma Longa",
     category: "turmeric",
-    image:
-      "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?q=80&w=1200&auto=format&fit=crop",
+    image: "/products/turmeric/mukra-ghatta-high-curcumin.jpg",
     shortDescription:
-      "Premium bright yellow raw turmeric fingers known for high aromatic value and essential oil content.",
+      "High-curcumin Mukra Ghatta turmeric, a premium bold-grade whole turmeric known for deep colour value and strong curcumin content. Suited to bulk export and pharmaceutical-grade buyers.",
+    curcuminContent: "3.0% - 4.5%",
+    specifications: {
+      moisture: "Max 10%",
+      purity: "99% Clean",
+      origin: "India",
+      packaging: ["25kg PP Bags", "50kg Jute Bags", "Customized Vacuum Bags"],
+    },
+    featured: true,
+  },
+  {
+    id: "turmeric-mukra-ghatta-bulk-lot",
+    name: "Turmeric Mukra Ghatta (Bulk Lot)",
+    botanicalName: "Curcuma Longa",
+    category: "turmeric",
+    image: "/products/turmeric/mukra-ghatta-bulk-lot.jpg",
+    shortDescription:
+      "Bulk-lot Mukra Ghatta turmeric offered in large consignment quantities for wholesale and bulk export buyers, with consistent quality across the full lot.",
+    curcuminContent: "3.0% - 4.5%",
+    specifications: {
+      moisture: "Max 10%",
+      purity: "99% Clean",
+      origin: "India",
+      packaging: ["50kg Jute Bags", "Bulk Container Loads"],
+    },
+    featured: false,
+  },
+  {
+    id: "turmeric-broken",
+    name: "Turmeric Broken",
+    botanicalName: "Curcuma Longa",
+    category: "turmeric",
+    image: "/products/turmeric/turmeric-broken.jpg",
+    shortDescription:
+      "Broken turmeric fingers, an economical grade well suited for grinding into powder, with quality and curcumin content comparable to whole fingers.",
+    curcuminContent: "3.0% - 4.5%",
+    specifications: {
+      moisture: "Max 10%",
+      purity: "99% Clean",
+      origin: "India",
+      packaging: ["25kg PP Bags", "50kg Jute Bags"],
+    },
+    featured: false,
+  },
+  {
+    id: "double-polished-super-salem-turmeric-finger",
+    name: "Double Polished Super Salem Turmeric Finger",
+    botanicalName: "Curcuma Longa",
+    category: "turmeric",
+    image: "/products/turmeric/double-polished-super-salem-finger.jpg",
+    shortDescription:
+      "Double-polished Super Salem grade turmeric fingers from Tamil Nadu, prized for bright colour, smooth finish, and high aromatic and essential oil content.",
     curcuminContent: "3.0% - 4.5%",
     specifications: {
       moisture: "Max 10%",
@@ -42,76 +92,38 @@ export const PRODUCTS_DATA: Product[] = [
     featured: true,
   },
   {
-    id: "high-curcumin-turmeric-powder",
-    name: "High-Curcumin Turmeric Powder",
+    id: "turmeric-bulb",
+    name: "Turmeric Bulb",
     botanicalName: "Curcuma Longa",
     category: "turmeric",
-    image:
-      "https://images.unsplash.com/photo-1615485291234-4a1c1c6f6d3a?q=80&w=1200&auto=format&fit=crop",
+    image: "/products/turmeric/turmeric-bulb-double-polished.jpg",
     shortDescription:
-      "Finely ground, deep golden turmeric powder ideal for dietary supplements, pharmaceuticals, and culinary exports.",
-    curcuminContent: "4.5% - 5.5%+",
-    specifications: {
-      moisture: "Max 8%",
-      purity: "100% Pure (Microbiologically Tested)",
-      origin: "Unjha, Gujarat, India",
-      packaging: ["10kg Kraft Bags", "25kg HDPE Bags", "Private Label Containers"],
-    },
-    featured: true,
-  },
-  {
-    id: "nizamabad-turmeric",
-    name: "Nizamabad Turmeric (Whole)",
-    botanicalName: "Curcuma Longa",
-    category: "turmeric",
-    image:
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=1200&auto=format&fit=crop",
-    shortDescription:
-      "Bold, thick fingers from the Nizamabad belt, prized for consistent colour value and shelf life.",
-    curcuminContent: "3.5% - 4.8%",
+      "Whole turmeric bulb (round/mother rhizome), double polished, valued for its higher curcumin concentration and use in premium powder blends.",
+    curcuminContent: "3.0% - 4.5%",
     specifications: {
       moisture: "Max 10%",
       purity: "99% Clean",
-      origin: "Nizamabad, Telangana, India",
+      origin: "India",
       packaging: ["25kg PP Bags", "50kg Jute Bags"],
     },
     featured: false,
   },
   {
-    id: "rajapuri-turmeric",
-    name: "Rajapuri Turmeric (Whole)",
+    id: "turmeric-finger",
+    name: "Turmeric Finger",
     botanicalName: "Curcuma Longa",
     category: "turmeric",
-    image:
-      "https://images.unsplash.com/photo-1615485291235-4a1c1c6f6d3b?q=80&w=1200&auto=format&fit=crop",
+    image: "/products/turmeric/turmeric-finger-good-grade.jpg",
     shortDescription:
-      "Sourced from Sangli's Rajapuri belt, valued for rich colour and low fibre content.",
-    curcuminContent: "3.2% - 4.0%",
+      "Good-grade whole turmeric fingers offering reliable colour value and curcumin content for general export and culinary use.",
+    curcuminContent: "3.0% - 4.5%",
     specifications: {
       moisture: "Max 10%",
-      purity: "98% Clean",
-      origin: "Sangli, Maharashtra, India",
+      purity: "99% Clean",
+      origin: "India",
       packaging: ["25kg PP Bags", "50kg Jute Bags"],
     },
     featured: false,
-  },
-  {
-    id: "organic-turmeric-powder",
-    name: "Organic Turmeric Powder",
-    botanicalName: "Curcuma Longa",
-    category: "turmeric",
-    image:
-      "https://images.unsplash.com/photo-1615485500834-bc65fd331b98?q=80&w=1200&auto=format&fit=crop",
-    shortDescription:
-      "Certified organic turmeric powder grown without synthetic inputs, for premium retail and nutraceutical brands.",
-    curcuminContent: "4.0% - 5.0%",
-    specifications: {
-      moisture: "Max 8%",
-      purity: "100% Organic Certified",
-      origin: "Erode, Tamil Nadu, India",
-      packaging: ["10kg Kraft Bags", "25kg HDPE Bags"],
-    },
-    featured: true,
   },
   {
     id: "black-pepper",

@@ -33,8 +33,10 @@ export function Hero() {
           <Button size="lg" onClick={() => openInquiry()}>
             Explore Products
           </Button>
-          <Button size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10">
-            <Download className="h-4 w-4" /> Download Product Catalog
+          <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10">
+            <a href="/catalog/adheesh-overseas-product-catalog.pdf" download>
+              <Download className="h-4 w-4" /> Download Product Catalog
+            </a>
           </Button>
         </div>
       </div>
