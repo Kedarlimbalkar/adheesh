@@ -13,8 +13,8 @@ export function Footer() {
             <span className="font-display font-bold text-white">ADHEESH OVERSEAS</span>
           </div>
           <p className="text-white/55 leading-relaxed">
-            Direct sourcing and global export of premium Indian turmeric, spices, oil seeds,
-            pulses and grains &mdash; shipped worldwide with export-grade quality assurance.
+            Direct sourcing and global export of premium Indian turmeric, spices, and oil seeds
+            &mdash; shipped worldwide with export-grade quality assurance.
           </p>
         </div>
 

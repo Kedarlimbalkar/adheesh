@@ -23,7 +23,7 @@ export default function AboutPage() {
         <p className="mt-6 text-muted-foreground leading-relaxed">
           Adheesh Overseas is a B2B export house specializing in premium Indian agricultural
           commodities &mdash; led by our flagship product, high-curcumin turmeric, alongside a
-          wider range of spices, oil seeds, pulses, and grains. Headquartered in Unjha, Gujarat,
+          wider range of spices and oil seeds. Headquartered in Unjha, Gujarat,
           one of India&apos;s most important agri-trading hubs, we work directly with a trusted
           network of farmers and local mandis, cutting out unnecessary middlemen so our overseas
           partners receive consistent quality at fair, transparent pricing.

@@ -3,7 +3,7 @@ import { InquiryForm } from "@/components/shared/inquiry-form";
 
 export const metadata = {
   title: "Contact Us | Adheesh Overseas",
-  description: "Get in touch with Adheesh Overseas for bulk export inquiries on turmeric, spices, oil seeds, pulses and grains.",
+  description: "Get in touch with Adheesh Overseas for bulk export inquiries on turmeric, spices, and oil seeds.",
 };
 
 export default function ContactPage() {

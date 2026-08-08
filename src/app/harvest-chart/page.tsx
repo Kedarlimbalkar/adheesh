@@ -2,7 +2,7 @@ import { HarvestChartTable, HarvestLegend } from "@/components/shared/harvest-ch
 
 export const metadata = {
   title: "Harvest & Seasonality Chart | Adheesh Overseas",
-  description: "Month-by-month harvest and availability chart for Indian turmeric, spices, oil seeds, pulses and grains.",
+  description: "Month-by-month harvest and availability chart for Indian turmeric, spices, and oil seeds.",
 };
 
 export default function HarvestChartPage() {

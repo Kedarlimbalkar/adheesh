@@ -18,7 +18,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Adheesh Overseas | Premium Indian Spice & Agro Exporter",
   description:
-    "Adheesh Overseas exports premium Indian turmeric, spices, oil seeds, pulses and grains to B2B buyers worldwide. ISO, FSSAI, APEDA & Spices Board certified.",
+    "Adheesh Overseas exports premium Indian turmeric, spices, and oil seeds to B2B buyers worldwide. ISO, FSSAI, APEDA & Spices Board certified.",
   metadataBase: new URL("https://adheeshoverseas.in"),
 };
 

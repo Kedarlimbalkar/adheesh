@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogTrigger } from "@/components/ui/dialog";
 import { ProductModal } from "./product-modal";
 import type { Product } from "@/data/products";
+import { cn } from "@/lib/utils";
 
 export function ProductCard({ product }: { product: Product }) {
   return (
@@ -18,12 +19,21 @@ export function ProductCard({ product }: { product: Product }) {
             alt={product.name}
             fill
             sizes="(max-width: 768px) 100vw, 25vw"
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            className={cn(
+              "object-cover group-hover:scale-105 transition-transform duration-300",
+              product.comingSoon && "opacity-90"
+            )}
           />
-          {product.curcuminContent && (
-            <Badge className="absolute top-3 left-3 bg-primary text-primary-foreground border-none">
-              Curcumin {product.curcuminContent}
+          {product.comingSoon ? (
+            <Badge className="absolute top-3 left-3 bg-forest text-white border-none">
+              Stocking Soon
             </Badge>
+          ) : (
+            product.curcuminContent && (
+              <Badge className="absolute top-3 left-3 bg-primary text-primary-foreground border-none">
+                Curcumin {product.curcuminContent}
+              </Badge>
+            )
           )}
         </div>
         <CardContent className="p-5">
@@ -34,7 +44,7 @@ export function ProductCard({ product }: { product: Product }) {
           </p>
           <DialogTrigger asChild>
             <Button variant="outline" size="sm" className="w-full">
-              Inquire Now
+              {product.comingSoon ? "Notify Me When Available" : "Inquire Now"}
             </Button>
           </DialogTrigger>
         </CardContent>

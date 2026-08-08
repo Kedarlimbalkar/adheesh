@@ -24,8 +24,6 @@ export const HARVEST_DATA: HarvestRow[] = [
   row("Red Chili", ["peak","peak","peak","off","off","off","off","off","off","sowing","sowing","sowing"]),
   row("Sesame Seeds", ["off","off","off","off","off","peak","peak","off","off","off","off","off"]),
   row("Mustard Seeds", ["peak","peak","off","off","off","off","off","off","off","sowing","sowing","off"]),
-  row("Basmati Rice", ["off","off","off","off","off","off","off","off","off","peak","peak","off"]),
-  row("Chickpeas", ["peak","peak","off","off","off","off","off","off","off","sowing","sowing","off"]),
 ];
 
 export const MONTH_LABELS = MONTHS;

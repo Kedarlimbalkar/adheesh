@@ -30,7 +30,7 @@ export function FeaturedProducts() {
         {CATEGORIES.map((cat) => (
           <TabsContent key={cat.id} value={cat.id} className="w-full">
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {PRODUCTS_DATA.filter((p) => p.category === cat.id).map((product) => (
+              {PRODUCTS_DATA.filter((p) => p.parentCategory === cat.id).map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
             </div>

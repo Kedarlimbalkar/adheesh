@@ -2,7 +2,7 @@ import { ProductsCatalog } from "./products-catalog";
 
 export const metadata = {
   title: "Products | Adheesh Overseas",
-  description: "Browse our full catalog of premium Indian turmeric, spices, oil seeds, pulses and grains for B2B export.",
+  description: "Browse our full catalog of premium Indian turmeric, spices, and oil seeds for B2B export.",
 };
 
 export default function ProductsPage() {

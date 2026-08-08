@@ -10,10 +10,10 @@ import { cn } from "@/lib/utils";
 
 export function ProductsCatalog() {
   const [query, setQuery] = React.useState("");
-  const [activeCategory, setActiveCategory] = React.useState<Product["category"] | "all">("all");
+  const [activeCategory, setActiveCategory] = React.useState<Product["parentCategory"] | "all">("all");
 
   const filtered = PRODUCTS_DATA.filter((p) => {
-    const matchesCategory = activeCategory === "all" || p.category === activeCategory;
+    const matchesCategory = activeCategory === "all" || p.parentCategory === activeCategory;
     const matchesQuery =
       query.trim() === "" ||
       p.name.toLowerCase().includes(query.toLowerCase()) ||
