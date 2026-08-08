@@ -50,7 +50,7 @@ export default function ContactPage() {
             <p className="flex items-center gap-3">
               <Mail className="h-5 w-5 text-primary shrink-0" /> contact@adheeshoverseas.in
             </p>
- <p className="flex items-center gap-3">
+            <p className="flex items-center gap-3">
               <Phone className="h-5 w-5 text-primary shrink-0" />
               <a href="tel:+918888540721" className="hover:underline">+91 88885 40721</a>
               <span className="mx-1">/</span>

@@ -58,6 +58,7 @@ export function Footer() {
                 <a href="tel:+918888540721" className="hover:underline whitespace-nowrap">+91 88885 40721</a>
                 <span className="text-white/40">/</span>
                 <a href="tel:+919822368877" className="hover:underline whitespace-nowrap">+91 98223 68877</a>
+                <a href="tel:+919822368877" className="hover:underline whitespace-nowrap">+91 98223 68882</a>
               </span>
             </li>
             <li className="flex items-center gap-2"><Globe className="h-4 w-4 text-primary shrink-0" /> www.adheeshoverseas.in</li>
