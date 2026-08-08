@@ -162,6 +162,7 @@ export const PRODUCTS_DATA: Product[] = [
     botanicalName: "Piper Nigrum",
     parentCategory: "spices",
     subType: "black-pepper",
+    comingSoon: true,
     image: "/products/spices/black-pepper.jpg",
     shortDescription:
       "Bold, pungent peppercorns hand-sorted for uniform size and high oil content.",
@@ -179,6 +180,7 @@ export const PRODUCTS_DATA: Product[] = [
     botanicalName: "Cuminum Cyminum",
     parentCategory: "spices",
     subType: "jeera",
+    comingSoon: true,
     image: "/products/spices/cumin-seeds-jeera.jpg",
     shortDescription:
       "Aromatic, machine-cleaned cumin seeds with strong essential oil content, singapore-grade quality.",
@@ -196,6 +198,7 @@ export const PRODUCTS_DATA: Product[] = [
     botanicalName: "Elettaria Cardamomum",
     parentCategory: "spices",
     subType: "green-cardamom",
+    comingSoon: true,
     image: "/products/spices/green-cardamom.jpg",
     shortDescription:
       "Bold green pods with intense aroma, hand-picked and sun-dried for export grade colour retention.",
@@ -213,6 +216,7 @@ export const PRODUCTS_DATA: Product[] = [
     botanicalName: "Capsicum Annuum",
     parentCategory: "spices",
     subType: "chilli",
+    comingSoon: true,
     image: "/products/spices/red-chili.jpg",
     shortDescription:
       "Vibrant red chilies with consistent ASTA colour value, available whole, crushed or powdered.",
@@ -247,6 +251,7 @@ export const PRODUCTS_DATA: Product[] = [
     name: "Sesame Seeds (Natural / Hulled)",
     botanicalName: "Sesamum Indicum",
     parentCategory: "oil-seeds",
+    comingSoon: true,
     image: "/products/oil-seeds/sesame-seeds.jpg",
     shortDescription:
       "High-oil-content sesame seeds, sortex-cleaned, suitable for oil extraction, bakery and tahini production.",
@@ -263,6 +268,7 @@ export const PRODUCTS_DATA: Product[] = [
     name: "Mustard Seeds (Yellow / Brown)",
     botanicalName: "Brassica Juncea",
     parentCategory: "oil-seeds",
+    comingSoon: true,
     image: "/products/oil-seeds/mustard-seeds.jpg",
     shortDescription:
       "Clean, uniform mustard seeds with high oil yield, ideal for oil mills and condiment manufacturing.",
