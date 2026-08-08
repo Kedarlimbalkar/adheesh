@@ -30,8 +30,8 @@ export function ProductModal({ product }: { product: Product }) {
 
       {product.comingSoon ? (
         <div className="rounded-xl border border-dashed border-border bg-muted/40 px-4 py-3 text-sm text-muted-foreground">
-          We're finalizing specifications and packaging for this product. Send an inquiry and our
-          team will reach out as soon as it's ready for export.
+          We&apos;re finalizing specifications and packaging for this product. Send an inquiry and our
+          team will reach out as soon as it&apos;s ready for export.
         </div>
       ) : (
         <div className="rounded-xl border border-border overflow-hidden">
