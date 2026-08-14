@@ -33,8 +33,8 @@ export function Footer() {
           <ul className="space-y-2 text-white/55">
             <li>APEDA Registered</li>
             <li>Spices Board of India</li>
-            <li>FSSAI &amp; ISO 22000</li>
-            <li>HACCP, Halal, GMP</li>
+            <li>FSSAI</li>
+            <li>Halal</li>
           </ul>
         </div>
 

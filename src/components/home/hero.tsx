@@ -12,7 +12,7 @@ export function Hero() {
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1615485500704-8e990f9900f7?q=80&w=2000&auto=format&fit=crop"
+          src="/products/turmeric/turmeric-broken.jpg"
           alt="Golden turmeric harvest"
           fill
           priority

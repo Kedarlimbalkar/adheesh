@@ -50,7 +50,7 @@ export const CATEGORIES: { id: ParentCategory; label: string }[] = [
 export const PRODUCTS_DATA: Product[] = [
   {
     id: "turmeric-mukra-ghatta",
-    name: "Turmeric Mukra Ghatta",
+    name: "Turmeric Powder Ghatta",
     botanicalName: "Curcuma Longa",
     parentCategory: "turmeric",
     subType: "mukra-ghatta",

@@ -37,12 +37,6 @@ export function ProductModal({ product }: { product: Product }) {
         <div className="rounded-xl border border-border overflow-hidden">
           <table className="w-full text-sm">
             <tbody>
-              {product.curcuminContent && (
-                <tr className="border-b border-border">
-                  <td className="px-4 py-2.5 font-medium text-ink bg-muted/60 w-1/2">Curcumin Content</td>
-                  <td className="px-4 py-2.5 text-muted-foreground">{product.curcuminContent}</td>
-                </tr>
-              )}
               <tr className="border-b border-border">
                 <td className="px-4 py-2.5 font-medium text-ink bg-muted/60">Moisture Content</td>
                 <td className="px-4 py-2.5 text-muted-foreground">{product.specifications.moisture}</td>
