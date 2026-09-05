@@ -1,8 +1,9 @@
-"use client";
+﻿"use client";
 
 import * as React from "react";
 import Link from "next/link";
-import { Leaf, Menu, X } from "lucide-react";
+import Image from "next/image";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useInquiryModal } from "@/context/inquiry-modal-context";
 
@@ -22,13 +23,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 bg-background/95 backdrop-blur border-b border-border">
       <div className="container flex items-center justify-between py-4">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground">
-            <Leaf className="h-4 w-4" />
-          </span>
-          <span className="font-display text-lg font-bold tracking-tight text-ink">
-            ADHEESH <span className="text-primary">OVERSEAS</span>
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo-icon.png"
+            alt="Adheesh Overseas"
+            width={692}
+            height={437}
+            priority
+            className="h-12 w-auto"
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-ink/80">

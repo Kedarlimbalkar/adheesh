@@ -1,16 +1,20 @@
-import Link from "next/link";
-import { Leaf, MapPin, Mail, Phone, Globe } from "lucide-react";
+﻿import Link from "next/link";
+import Image from "next/image";
+import { MapPin, Mail, Phone, Globe } from "lucide-react";
 
 export function Footer() {
   return (
     <footer className="bg-ink text-white/80">
       <div className="container py-14 grid gap-10 md:grid-cols-4 text-sm">
         <div>
-          <div className="flex items-center gap-2 mb-3">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
-              <Leaf className="h-4 w-4" />
-            </span>
-            <span className="font-display font-bold text-white">ADHEESH OVERSEAS</span>
+          <div className="flex items-center mb-3">
+            <Image
+              src="/logo-icon.png"
+              alt="Adheesh Overseas"
+              width={692}
+              height={437}
+              className="h-14 w-auto"
+            />
           </div>
           <p className="text-white/55 leading-relaxed">
             Direct sourcing and global export of premium Indian turmeric, spices, and oil seeds
@@ -58,7 +62,8 @@ export function Footer() {
                 <a href="tel:+918888540721" className="hover:underline whitespace-nowrap">+91 88885 40721</a>
                 <span className="text-white/40">/</span>
                 <a href="tel:+919822368877" className="hover:underline whitespace-nowrap">+91 98223 68877</a>
-                <a href="tel:+919822368877" className="hover:underline whitespace-nowrap">+91 98223 68882</a>
+                <span className="text-white/40">/</span>
+                <a href="tel:+919822368882" className="hover:underline whitespace-nowrap">+91 98223 68882</a>
               </span>
             </li>
             <li className="flex items-center gap-2"><Globe className="h-4 w-4 text-primary shrink-0" /> www.adheeshoverseas.in</li>

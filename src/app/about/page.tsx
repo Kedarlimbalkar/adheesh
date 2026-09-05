@@ -1,8 +1,7 @@
-import { Tractor, FlaskConical, HeartHandshake, Clock } from "lucide-react";
+﻿import { Tractor, HeartHandshake, Clock } from "lucide-react";
 
 const VALUES = [
   { icon: HeartHandshake, title: "Transparency", description: "Clear pricing, honest specifications, and open communication at every stage of the trade." },
-  { icon: FlaskConical, title: "Purity", description: "Every batch is lab-tested for purity, moisture, and active compound content before dispatch." },
   { icon: Clock, title: "Timely Delivery", description: "Reliable production planning and logistics coordination to meet your shipping windows." },
   { icon: Tractor, title: "Farm Partnership", description: "Long-term relationships with producer groups that support fair prices and consistent supply." },
 ];
@@ -55,7 +54,7 @@ export default function AboutPage() {
 
       <div>
         <h2 className="font-display text-2xl font-bold mb-8 text-center">Our Core Values</h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {VALUES.map(({ icon: Icon, title, description }) => (
             <div key={title} className="rounded-2xl border border-border p-6 text-center">
               <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary mb-4">

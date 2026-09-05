@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { AnnouncementBar } from "@/components/layout/announcement-bar";
@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   description:
     "Adheesh Overseas exports premium Indian turmeric, spices, and oil seeds to B2B buyers worldwide. ISO, FSSAI, APEDA & Spices Board certified.",
   metadataBase: new URL("https://adheeshoverseas.in"),
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
